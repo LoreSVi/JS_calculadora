@@ -1,7 +1,9 @@
+//agrega el valor a la pantalla
 function agregar(valor) {
   document.getElementById("pantalla").value += valor;
 }
 
+//vacia la pantalla
 function borrar() {
   document.getElementById("pantalla").value = "";
 }
